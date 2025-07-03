@@ -1,0 +1,224 @@
+/* ____________HEADER RESPONSIVE CSS _______________ */
+
+.menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  transition: all 0.3s ease;
+}
+
+/* Responsive */
+@media (width <= 940px) {
+  .head-links ul {
+    display: none;
+    flex-direction: column;
+    background-color: #4b2e2b;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    row-gap: 20px;
+  }
+
+  .head-main {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .head-logo {
+    text-align: center;
+    margin-left: 70px;
+    font-size: 1em;
+  }
+
+  .head-links.show {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    left: 30px;
+  }
+  .head-links ul li {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #c49e72;
+  }
+  
+}
+
+/* ___________FOOTER RESPONSIVE CSS_____________ */
+
+/* @media (width<=1200px) {
+  .footer-child {
+    width: 90%;
+  }
+}
+
+@media (width <= 768px) {
+  .footer-child {
+    flex-direction: column;
+    align-items: center;
+    text-align:left;
+    font-size: 11px;
+   
+    width: 80%;
+    row-gap: 30px;
+
+  }
+  .f-3 button {
+    margin-bottom: 30px;
+    
+  }
+}
+ */
+
+ @media (width<=1200px) {
+  .footer-child {
+    width: 90%;
+  }
+}
+
+@media (width <= 768px) {
+  .footer-child {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 11px;
+    width: 0%;
+    row-gap: 30px;
+  }
+  .f-3 button {
+    margin-bottom: 30px;
+
+  }
+  .f-4{
+    font-size: 13;
+    
+  }
+  .arrow{
+    display: none;
+  }
+}
+
+/* -_______________NEW ARRIVALS RESPONSIVE CSS_________________ */
+@media (width <= 768px) {
+  .new-arrivals {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  }
+  .new-arrivals h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+
+  .arrival-item {
+    width: 80%;
+
+  }
+
+}
+
+@media (width <= 960px) {
+  
+  .arrival-item {
+    width: 500px;
+    height: auto;
+  }
+
+  .arrival-item img {
+    height: 800px;
+    object-fit: cover;
+
+  }
+}
+
+@media (width <= 830px){
+  .arrival-items {
+    margin: 0px;
+   
+    
+    width: 100%;
+  }
+  .arrival-item {
+    width: 100%;
+    
+   
+
+  }
+
+  .arrival-item img {
+    width: 100%;
+    object-fit: cover;
+
+  }
+}
+
+
+/*____________ upto 50% off ______________ */
+
+ @media (width <= 768px) {
+  .off-child {
+   flex-wrap: wrap-reverse;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+  }
+  .off-left {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .off-left h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+
+
+  .off-right {
+    width: 100%;
+    height: 300px;
+  }
+  .off-right img {
+    width: 100%;
+    object-fit: cover;
+    box-shadow: none;
+    margin: 0px auto;
+     border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  }
+}
+
+@media (width <= 500px) {
+  .off-child {
+    width: 100%;
+  }
+  .off-left {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .off-right {
+    width: 100%;
+    height: auto;
+  }
+} 
+
+/* _______________CUSTOMERS REVIEWS______________________- */
+
+@media (max-width: 768px) {
+  .reviews {
+    clip-path: none;
+    border-radius: 20px;
+    height: auto;
+  }
+}

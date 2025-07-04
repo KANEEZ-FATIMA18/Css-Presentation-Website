@@ -283,26 +283,32 @@ html {
 .hotbevrg {
   text-align: center;
   color: #e6d3b3;
-  padding-top: 20px;
+  padding-top: 40px;
   margin-top: 50px;
+   padding-bottom: 30px;
+  font-family: dancing script;
 }
 .coldbevrg {
   text-align: center;
   color: #4b2e2b;
-  padding-top: 20px;
+  padding-top: 40px;
   margin-top: 100px;
+   padding-bottom: 30px;
+  font-family: dancing script;
 }
 .desert {
   text-align: center;
   color: #e6d3b3;
   margin-top: 130px;
-  padding-top: 20px;
+  padding-top: 40px;
+   padding-bottom: 30px;
+  font-family: dancing script;
 }
 .special {
   text-align: center;
   color: #4b2e2b;
   margin-top: 130px;
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 30px;
   font-family: dancing script;
 }
